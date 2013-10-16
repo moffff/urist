@@ -21,6 +21,9 @@
    (obviously you should use your own path instead of **path_to_scenarios**)
 
 ## Scenario examples
+
+`> cat app/scenarios/simple_scenario.rb`
+
 ```
 class SimpleScenario < Urist::Scenario
   def logic
@@ -28,7 +31,12 @@ class SimpleScenario < Urist::Scenario
     			:money_in_bank => 100500, :leprecon => true }
   end
 end
+```
 
+
+`> cat app/scenarios/more_specific_scenario.rb`
+
+```
 class MoreSpecificScenario < Urist::Scenario
   @links = { :need_more_scenarios => SimpleScenario }
 
@@ -99,3 +107,4 @@ G. You're done!
 ## License
 
 Copyright © 2013 Artem Kornienko (contacts@theteam.io) and released under an [MIT license](http://opensource.org/licenses/MIT).
+
