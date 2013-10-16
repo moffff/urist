@@ -1,4 +1,4 @@
-# Urist is a logic scenarios tree processor.
+# Urist: logic scenarios tree processor
 
 ## Features
 
