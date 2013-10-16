@@ -1,6 +1,6 @@
 require 'test/unit'
 require 'urist'
-require './test/scenarios.rb'
+require './test/scenarios_for_tests.rb'
 
 class UristTest < Test::Unit::TestCase
   def test_simple_scenario
