@@ -33,6 +33,7 @@ class SimpleScenario < Urist::Scenario
 end
 ```
 
+---------
 
 `> cat app/scenarios/more_specific_scenario.rb`
 
